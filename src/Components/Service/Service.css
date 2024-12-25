@@ -1,0 +1,79 @@
+.service-image {
+    border-color: #e4a93a;
+    border-width: 10px;
+    border-style: double;
+    max-width: 100%; 
+    height: auto;
+}
+
+.service-title {
+    font-weight: 700;
+    color: red;
+    font-size: 2rem; 
+}
+
+.service-row {
+    margin-top: 50px;
+}
+
+.service-para {
+    font-size: 18px;
+}
+
+.for-craft {
+    margin-top: 40px;
+}
+
+@media (max-width: 1024px) {
+    .service-title {
+        font-size: 1.75rem;
+    }
+
+    .service-para {
+        font-size: 16px;
+    }
+
+    .service-row {
+        margin-top: 40px;
+    }
+
+    .for-craft {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .service-title {
+        font-size: 1.5rem;
+    }
+
+    .service-para {
+        font-size: 15px;
+    }
+
+    .service-row {
+        margin-top: 30px;
+    }
+
+    .for-craft {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-title {
+        font-size: 1.2rem;
+    }
+
+    .service-para {
+        font-size: 14px;
+    }
+
+    .service-row {
+        margin-top: 20px;
+    }
+
+    .for-craft {
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,158 @@
+.home-page {
+    margin-top: 80px;
+}
+
+.service-home {
+    margin-top: 60px;
+}
+
+.home-title {
+    font-weight: 700;
+    color: red;
+    font-size: 2rem;
+}
+
+.home-para {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.home-image {
+    border-color: #e4a93a;
+    border-width: 10px;
+    border-style: double;
+    max-width: 100%;
+    height: auto;
+}
+
+.home-row {
+    margin-top: 50px;
+}
+
+
+.card-title {
+    color: #e4a93a;
+    font-weight: 700;
+}
+
+.custom-card {
+    width: 20rem;
+    border-radius: 15px;
+    border-color: #e4a93a;
+    border-width: 3px;
+    border-style: solid;
+    transition: all 0.3s ease;
+}
+
+.custom-card img {
+    border-radius: 15px 15px 0 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-buttons {
+    margin-top: 50px;
+}
+
+@media (max-width: 1024px) {
+    .home-page {
+        margin-top: 60px;
+    }
+
+    .service-home {
+        margin-top: 40px;
+    }
+
+    .home-title {
+        font-size: 1.75rem;
+    }
+
+    .home-para {
+        font-size: 18px;
+    }
+
+    .custom-card {
+        width: 18rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-page {
+        margin-top: 50px;
+    }
+
+    .service-home {
+        margin-top: 30px;
+    }
+
+    .home-title {
+        font-size: 1.5rem;
+    }
+
+    .home-para {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .custom-card {
+        width: 16rem;
+    }
+
+    .custom-buttons {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-page {
+        margin-top: 40px;
+    }
+
+    .service-home {
+        margin-top: 20px;
+    }
+
+    .home-title {
+        font-size: 1.2rem;
+    }
+
+    .home-para {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .custom-card {
+        width: 100%;
+    }
+
+    .custom-buttons {
+        margin-top: 30px;
+    }
+}
+
+.carousel-img {
+    width: 100%;
+    height: auto;
+    max-height: 800px;
+    object-fit: cover;
+}
+
+
+@media (max-width: 1024px) {
+    .carousel-img {
+        max-height: 600px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .carousel-img {
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-img {
+        max-height: 300px;
+    }
+}

@@ -1,0 +1,27 @@
+.nav-link-custom {
+  color: white !important;
+  margin: 0 35px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.nav-link-custom::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link-custom:hover::after {
+  width: 100%;
+}
+
+.nav-link-custom:hover {
+  color: #fff;
+}

@@ -1,0 +1,73 @@
+
+form.responsive-border {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+form.responsive-border label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form.responsive-border input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+
+form.responsive-border input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+form.responsive-border .send {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form.responsive-border .send:hover {
+    background-color: #0056b3;
+}
+
+form.responsive-border p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+@media (max-width: 768px) {
+    form.responsive-border {
+        padding: 15px;
+    }
+
+    form.responsive-border input {
+        font-size: 14px;
+    }
+
+    form.responsive-border .send {
+        font-size: 16px;
+    }
+}

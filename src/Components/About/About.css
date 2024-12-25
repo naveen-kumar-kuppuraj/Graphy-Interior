@@ -1,0 +1,53 @@
+.About-row {
+    margin-top: 50px;
+}
+
+.about-image {
+    border-color: #e4a93a;
+    border-width: 10px;
+    border-style: double;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.about-title {
+    font-weight: 700;
+    color: red;
+    font-size: 2rem;
+
+}
+
+
+.about-para {
+    font-size: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .About-row {
+        margin-top: 30px;
+    }
+
+    .about-title {
+        font-size: 1.5rem;
+    }
+
+    .about-para {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .About-row {
+        margin-top: 20px;
+    }
+
+    .about-title {
+        font-size: 1.2rem;
+    }
+
+    .about-para {
+        font-size: 16px;
+    }
+}

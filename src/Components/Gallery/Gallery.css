@@ -1,0 +1,42 @@
+.gallery-title {
+  text-align: center;
+  font-weight: 900;
+  color: red;
+}
+
+.gallery-container {
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-image {
+  width: 100%;
+  top: 200px;
+  height: auto;
+  display: block;
+  margin: 5px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+}
+
+.gallery-image:hover {
+  border-style: solid;
+  border-color: #e4a93a;
+  border-radius: 10px;
+  border-width: 8px;
+  transform: scale(1.05);
+}
+
+
+.gallery-item {
+  padding: 0.5rem;
+}
